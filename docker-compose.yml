@@ -2,7 +2,7 @@ name: unifi-network-application
 services:
   unifi-db:
     container_name: unifi-db
-    image: docker.io/mongo:4.4.25
+    image: docker.io/mongo:4.4
     environment:
       - PGID=1000
       - PUID=1000
